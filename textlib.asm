@@ -134,7 +134,9 @@ NEWLINES:
           POP RSI
           POP RAX
           RET
-
+          
+;Tis acceptable to put constant data in the procedure itself
+;rather than .bss or .data
 EOLS DB 10,10,10,10,10,10,10,10,10,10,10,10,10,10,10
 
 PRINTLINE:
